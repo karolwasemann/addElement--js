@@ -5,9 +5,34 @@
 
 body {
   background: #fff;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   min-height: 100vh;
+  padding: 32px;
+}
+
+.add {
+  display: block;
+  margin: 0 auto 32px;
+  width: 160px;
+  text-align: center;
+  font-size: 42px;
+  border: 1px solid black;
+  box-shadow: 0 0 2px 1px;
+}
+
+.square {
+  width: 32px;
+  height: 32px;
+  background: black;
+  color: #fff;
+  display: inline-block;
+  margin: 0 6px 6px 0;
+  line-height: 32px;
+  text-align: center;
+}
+
+.circle {
+  background: white;
+  color: black;
+  border-radius: 50%;
+  border: 2px solid black;
 }
